@@ -1,0 +1,13 @@
+<div>
+    <div class="canvas-container" >
+      <canvas baseChart style="height : inherit"
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [chartType]="barChartType"
+              (chartClick)="initiateWayChart($event)">
+      </canvas>
+    </div>
+    <button *ngIf="!isDateChart" (click)="initiateDateChart()">Back</button>
+  </div>

@@ -1,0 +1,11 @@
+.canvas-container {
+    position: relative; 
+    display: block; width:100%; height : 100%; overflow : hidden;
+    /* max-height : 80vh;
+    max-width : 100vw;  */
+}
+
+canvas {
+    width : 100%;
+    height : 70vh !important;
+}
